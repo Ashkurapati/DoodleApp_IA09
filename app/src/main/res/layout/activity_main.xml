@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Brush Settings Panel -->
+    <LinearLayout
+        android:id="@+id/brushSettingsPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnBrushThickness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brush Thickness"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/btnBrushTypeRound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brush Type: Round"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/btnBrushTypeSquare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brush Type: Square"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <!-- Canvas Settings Panel -->
+    <LinearLayout
+        android:id="@+id/canvasSettingsPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnResetCanvas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset Canvas"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/btnZoomIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zoom In"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/btnZoomOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zoom Out"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <!-- Animation Panel -->
+    <LinearLayout
+        android:id="@+id/animationSettingsPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnAnimateDoodle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animate Doodle"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <!-- Color Settings Panel -->
+    <LinearLayout
+        android:id="@+id/colorSettingsPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <!-- Choose Color Button -->
+        <Button
+            android:id="@+id/btnChooseColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Color"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <!-- Drawing Canvas -->
+    <com.example.doodleapp_ia09.DrawingCanvas
+        android:id="@+id/drawingCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
