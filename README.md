@@ -1,5 +1,6 @@
-#DoodleApp
+DoodleApp
 A simple and intuitive doodling application with features like brush customization, zoom controls, animation, and color selection. Perfect for creative minds to sketch, draw, and animate their doodles with ease.
+
 Features
 . Brush Settings: Customize the thickness and type of the brush (Round or Square).
 . Zoom Controls: Zoom in and out on the canvas for precise drawing.
@@ -7,9 +8,13 @@ Features
 . Canvas Reset: Quickly clear the canvas to start fresh.
 . Doodle Animation: Animate your doodles with fun effects like Bounce, Spin, or Grow.
 . Responsive UI: User-friendly layout optimized for various devices.
+
 How to Run the Program
+
 Prerequisites
+
 . Android Studio (latest version recommended)
+
 . Android SDK and Java Development Kit (JDK)
 . An Android emulator or a physical device for testing
 Steps to Run
