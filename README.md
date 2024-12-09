@@ -30,7 +30,7 @@ Steps to Run
 
 Clone the Repository:
 
-git clone https://github.com/AshKurapati/doodling-app.git
+git clone https://github.com/AshKurapati/DoodleApp_IA09.git
 
 Open in Android Studio:
 
